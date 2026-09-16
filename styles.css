@@ -1,3 +1,4 @@
+/* image sizing */
 .event-card__media img {
   width: 50%;
   height: 300px;
@@ -7,4 +8,10 @@
 .event-grid {
   display: grid;
   gap: 60px;
+}
+
+.related-card__media img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
 }

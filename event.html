@@ -1,13 +1,224 @@
 <!DOCTYPE html>
+<!--
+  Name: Angel Lopez 
+  Date: 09/16/2026
+  CSC 372-01
+
+  This is the event.html page for my assignment 2 that shows the events on campus.
+-->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fall Quad Festival — Talbrook Commons</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">Talbrook Commons</span>
+                <span class="brand-tagline">Office of Student Engagement</span>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#upcoming-events">Upcoming Events</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="event.html" aria-current="page">Featured Event</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="event-intro">
+            <div class="wrap">
+                <span class="event-intro__tag">Festival</span>
+                <h1>Fall Quad Festival</h1>
+                <ul class="event-intro__meta">
+                    <li><time datetime="2026-09-20T16:00">Saturday, September 20 · 4:00–8:00 PM</time></li>
+                    <li>Central Quad, Talbrook University</li>
+                </ul>
+                <p>
+                    The Fall Quad Festival is Talbrook's largest welcome-back
+                    gathering: forty-plus student organizations tabling side by side,
+                    three food trucks, a battle-of-the-bands stage, and the annual
+                    lantern walk once the sun goes down. It's the easiest single
+                    afternoon to find a club, meet an org's officers, and figure out
+                    where you fit on campus this year.
+                </p>
+                <figure class="event-intro__figure">
+                    <img src="images/event-1.jpg"
+                        alt="Illustrated festival tents and bunting strung across the Central Quad lawn at sunset.">
+                    <figcaption>Tabling tents go up along the Central Quad path starting at 2:00 PM.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <div class="wrap">
+            <div class="event-layout">
+
+                <div class="event-main">
+
+                    <h2>What to expect</h2>
+                    <p>
+                        Doors — or rather, tents — open at 4:00 PM. Student organizations
+                        line both sides of the Central Quad path, each with a table,
+                        sign-up sheet, and usually a snack or giveaway. The main stage
+                        runs a rotating lineup of student bands and a cappella groups
+                        until the festival closes at 8:00 PM with a lantern walk down to
+                        the reflecting pool.
+                    </p>
+
+                    <h2>Attendee expectations</h2>
+                    <ul>
+                        <li>Free and open to all current students, staff, and faculty with a Talbrook ID.</li>
+                        <li>Guests are welcome but must be signed in at the Lindale gate table.</li>
+                        <li>Food trucks accept card and Commons Dining Dollars; no cash-only vendors this year.</li>
+                        <li>Please leave space along the main path clear for festival staff and accessibility carts.
+                        </li>
+                    </ul>
+
+                    <h2>Schedule for the day</h2>
+                    <ol class="agenda">
+                        <li><time datetime="2026-09-20T14:00">2:00 PM</time><span> Org tents and food trucks set up along
+                                the Quad path.</span></li>
+                        <li><time datetime="2026-09-20T16:00">4:00 PM</time><span> Festival opens; club tabling
+                                begins.</span></li>
+                        <li><time datetime="2026-09-20T17:00">5:00 PM</time><span> Battle-of-the-bands opening sets on
+                                the main stage.</span></li>
+                        <li><time datetime="2026-09-20T18:30">6:30 PM</time><span> Battle-of-the-bands final round and
+                                audience vote.</span></li>
+                        <li><time datetime="2026-09-20T19:30">7:30 PM</time><span> Lantern walk assembles at the stage;
+                                procession to the reflecting pool.</span></li>
+                        <li><time datetime="2026-09-20T20:00">8:00 PM</time><span> Festival closes; tents come
+                                down.</span></li>
+                    </ol>
+
+                    <h2>Accessibility &amp; participation</h2>
+                    <div class="access-note">
+                        <p>
+                            The Quad path is paved and step-free from every campus
+                            entrance. Accessible seating with a clear stage view is set up
+                            near the sound booth — look for the reserved-seating sign or
+                            ask any staff member in a green vest. ASL interpretation is
+                            provided for the battle-of-the-bands announcements and the
+                            closing remarks. Service animals are welcome throughout the
+                            festival grounds.
+                        </p>
+                    </div>
+
+                </div>
+
+                <aside class="event-sidebar" aria-label="Event information">
+                    <h2>Event details</h2>
+                    <dl class="sidebar-list">
+                        <div>
+                            <dt>Date &amp; time</dt>
+                            <dd>Saturday, September 20, 4:00–8:00 PM</dd>
+                        </div>
+                        <div>
+                            <dt>Location</dt>
+                            <dd>Central Quad, Talbrook University</dd>
+                        </div>
+                        <div>
+                            <dt>Organizer</dt>
+                            <dd>Student Activities Board</dd>
+                        </div>
+                        <div>
+                            <dt>Admission</dt>
+                            <dd>Free with Talbrook ID; guests sign in at the gate</dd>
+                        </div>
+                    </dl>
+                    <a href="#" class="btn btn-primary btn-block">Register to attend</a>
+                </aside>
+
+            </div>
+        </div>
+
+        <section class="section section-alt">
+            <div class="wrap">
+                <div class="section-heading">
+                    <h2>You might also like</h2>
+                </div>
+                <div class="related-events">
+
+                    <article class="related-card">
+                        <div class="related-card__media">
+                            <img src="images/event-3.jpg"
+                                alt="Illustrated stone arches at night with a saxophone silhouette and floating music notes.">
+                        </div>
+                        <div class="related-card__body">
+                            <h3>Jazz Under the Arches</h3>
+                            <p>Sat, Sept 27 · 7:00 PM · Library Courtyard</p>
+                            <a href="#" class="related-card__link">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="related-card">
+                        <div class="related-card__media">
+                            <img src="images/event-2.jpg"
+                                alt="Illustrated stage with a spotlight, podium, and rows of seated audience members.">
+                        </div>
+                        <div class="related-card__body">
+                            <h3>Startup Pitch Night</h3>
+                            <p>Wed, Sept 24 · 6:30 PM · Innovation Hub Auditorium</p>
+                            <a href="#" class="related-card__link">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="related-card">
+                        <div class="related-card__media">
+                            <img src="images/event-5.jpg"
+                                alt="Illustrated row of houses beside a folded-heart shape representing a community service project.">
+                        </div>
+                        <div class="related-card__body">
+                            <h3>Community Service Saturday</h3>
+                            <p>Sat, Oct 4 · 9:00 AM–1:00 PM · Volunteer Center</p>
+                            <a href="#" class="related-card__link">View details</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-block">
+                <h2>Talbrook Commons</h2>
+                <p>A project of the Office of Student Engagement,<br>Talbrook University.</p>
+            </div>
+            <div class="footer-block">
+                <h3>Contact</h3>
+                <p><a href="mailto:engagement@talbrook.edu">engagement@talbrook.edu</a></p>
+                <p>Suite 220, Lindale Student Center</p>
+            </div>
+            <div class="footer-block">
+                <h3>Quick links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#upcoming-events">Upcoming events</a>
+                    <a href="index.html#about">About this site</a>
+                    <a href="event.html">Featured event</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrap">
+                <p>&copy; 2026 Talbrook University Office of Student Engagement.</p>
+                <p>All event details subject to change by organizers.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
