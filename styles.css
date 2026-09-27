@@ -35,7 +35,7 @@
   object-fit: cover;
 }
 
-/* -- header -- */
+/* header */
 .site-header {
   background: var(--color-ivy);
   color: var(--color-paper-on-ivy);
@@ -106,7 +106,7 @@
   color: var(--color-brass-light);
 }
 
-* -- hero -- */
+/* hero */
 .hero {
   background: var(--color-paper-dim);
   border-bottom: 1px solid var(--color-line);
@@ -157,7 +157,7 @@
   background: var(--color-paper);
 }
 
-/* -- event grid -- */
+/*  event grid  */
 .event-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -194,7 +194,7 @@
   border-bottom-color: var(--color-brick);
 }
 
-/* --- about --- */
+/*  about  */
 .about-layout {
   display: flex;
   flex-wrap: wrap;
@@ -232,7 +232,7 @@
   min-width: 1.6rem;
 }
 
-/* --  footer -- */
+/*   footer  */
 .site-footer {
   background: var(--color-ivy-dark);
   color: var(--color-paper-on-ivy);
@@ -344,4 +344,44 @@ body {
 
 h1, h2, h3 {
     font-family: Georgia, serif;
+}
+
+/*  saved events  */
+
+.save-event-button {
+  margin-top: 15px;
+  padding: 8px 14px;
+  border: 1px solid #000000;
+  background: #f4f1e8;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.save-event-button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.event-card.event-saved {
+  border: 3px solid #000000;
+  background: #eee9dc;
+}
+
+.saved-events {
+  background: #eee9dc;
+  border-top: 1px solid var(--color-line);
+}
+
+.saved-events-list {
+  padding-left: 20px;
+}
+
+.saved-events-list li {
+  margin-bottom: 12px;
+}
+
+.saved-events-list strong,
+.saved-events-list span {
+  display: block;
 }
